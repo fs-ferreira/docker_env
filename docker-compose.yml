@@ -60,13 +60,13 @@ services:
       - fsferreira-network
 
   naming-server:
-    image: fsferreiraa/naming-server:0.0.1-SNAPSHOT
+    image: fsferreiraa/naming-server:latest
     ports:
       - 8761:8761
     networks:
       - fsferreira-network
   api-gateway:
-    image: fsferreiraa/api-gateway:0.0.1-SNAPSHOT
+    image: fsferreiraa/api-gateway:latest
     ports:
       - 8765:8765
     depends_on:
@@ -82,7 +82,7 @@ services:
       - fsferreira-network
 
   currency-service:
-    image: fsferreiraa/currency-service:0.0.1-SNAPSHOT
+    image: fsferreiraa/currency-service:latest
     restart: always
     environment:
       TZ: America/Sao_Paulo
@@ -107,7 +107,7 @@ services:
       - fsferreira-network
 
   book-service:
-    image: fsferreiraa/book-service:0.0.1-SNAPSHOT
+    image: fsferreiraa/book-service:latest
     restart: always
     environment:
       TZ: America/Sao_Paulo
