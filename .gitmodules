@@ -1,0 +1,15 @@
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/fs-ferreira/api-gateway.git
+
+[submodule "book-service"]
+	path = book-service
+	url = https://github.com/fs-ferreira/book-service.git
+
+[submodule "currency-service"]
+    path = currency-service
+    url = https://github.com/fs-ferreira/currency-service.git
+
+[submodule "naming-server"]
+    path = naming-server
+    url = https://github.com/fs-ferreira/naming-server.git
